@@ -1,5 +1,5 @@
 
-/* blocco 1 */
+/* start: blocco 1 */
 let num1 = prompt("Enter a first number");
 let num2 = prompt("Enter a second number");
 
@@ -10,3 +10,4 @@ if (num1 > num2){
 } else if (num1 == num2){
     console.log('numeri uguali')
 }
+/* end: blocco 1 */
