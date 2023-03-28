@@ -26,7 +26,7 @@ if (word1.length > word2.length){
 /* end: blocco 2 */
 
 /* start: blocco 3 */
-var arr = [];
+/* var arr = [];
 for (i=0; i <= 4; i++){
     let num = parseFloat(prompt("Enter a number", "1"));
     arr.push(num);
@@ -34,7 +34,20 @@ for (i=0; i <= 4; i++){
 
 let result = arr.reduce((a, b) => {
     return a + b;
-  }, 0);
+}, 0);
 
-  console.log(result)
-  /* end: blocco 3 */
+console.log(result) */
+/* end: blocco 3 */
+
+/* start: blocco 4 */
+var arr = [];
+for (i=0; i <= 5; i++){
+    let num = parseFloat(prompt("Enter a number", "1"));
+    if (num % 2 == 0){
+
+    }else{
+        arr.push(num);
+    }
+}
+console.log(arr)
+/* end: blocco 4 */
